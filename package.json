@@ -1,0 +1,36 @@
+{
+  "name": "journal-submission-api",
+  "version": "1.0.0",
+  "description": "Advanced API for academic journal article submissions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon server.js",
+    "dev": "NODE_ENV=development nodemon server.js",
+    "prod": "NODE_ENV=production node server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.2",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "jszip": "^3.10.1",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^8.0.2",
+    "winston": "^3.11.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon server.js",
+    "build": "npm run build",
     "dev": "NODE_ENV=development nodemon server.js",
     "prod": "NODE_ENV=production node server.js",
     "lint": "eslint ."
